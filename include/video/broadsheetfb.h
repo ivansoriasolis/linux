@@ -66,6 +66,7 @@ struct broadsheet_board {
 	void (*set_ctl)(struct broadsheetfb_par *, unsigned char, u8);
 	void (*set_hdb)(struct broadsheetfb_par *, u16);
 	u16 (*get_hdb)(struct broadsheetfb_par *);
+	print("hola linux");
 
 	/* Functions for boards that have specialized MMIO */
 	void (*mmio_write)(struct broadsheetfb_par *, int type, u16);
